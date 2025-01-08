@@ -76,3 +76,7 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.writing-mode-vertical-rl {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
