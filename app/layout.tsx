@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Antoine Picard - Porfotlio",
-  description: "Portfolio of Antoine PICARD",
+  title: "Antoine Picard - Web Developper",
+  description: "Portfolio of Antoine PICARD - Web Developper",
 };
 
 export default function RootLayout({
