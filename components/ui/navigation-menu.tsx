@@ -10,15 +10,11 @@ const NavigationMenu = React.forwardRef<
   React.ElementRef<typeof NavigationMenuPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof NavigationMenuPrimitive.Root>
 >(({ className, children, ...props }, ref) => {
-  const { theme } = useTheme();
-  const shadowColor =
-    theme === "dark" ? "drop-shadow-white" : "drop-shadow-black";
-
   return (
     <NavigationMenuPrimitive.Root
       ref={ref}
       className={cn(
-        `relative z-10 flex max-w-max flex-1 items-center justify-center ${shadowColor} px-4 py-2 space-x-1 rounded-full my-4 bg-background`,
+        `relative z-10 flex flex-1 items-center justify-center px-4 py-2 space-x-1 rounded-full bg-background`,
         className
       )}
       {...props}

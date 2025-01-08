@@ -1,5 +1,7 @@
+import { Logo } from "@/components/Logo";
 import { ModeToggle } from "@/components/ModeToggle";
 import { Navigation } from "@/components/Navigation";
+
 import TextDescription from "@/components/TextDescription";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import * as motion from "framer-motion/client";
@@ -8,8 +10,11 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center h-32">
-        <div className="fixed z-50">
-          <Navigation />
+        <div className="z-50">
+          <div className="flex justify-between items-center">
+            <Logo />
+            <Navigation />
+          </div>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center">
@@ -23,7 +28,7 @@ export default function Home() {
           }}
         >
           <Avatar>
-            <AvatarImage src="https://media.licdn.com/dms/image/v2/C4D03AQHy5iE3VO-6ig/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605118432887?e=1733356800&v=beta&t=kE3rDKnBAsrblZ6pB2IfyisUcyPtnbYHekXg4cPPWzQ" />
+            <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
             <AvatarFallback>AP</AvatarFallback>
           </Avatar>
         </motion.div>

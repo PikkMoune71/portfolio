@@ -61,6 +61,12 @@ const config: Config = {
         black: "0 4px 6px rgba(0, 0, 0, 0.3)",
       },
     },
+    writingMode: {
+      "vertical-rl": "vertical-rl",
+    },
+    textOrientation: {
+      upright: "upright",
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
