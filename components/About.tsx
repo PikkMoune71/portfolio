@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { SocialContact } from "./SocialContact";
 import localFont from "next/font/local";
 import { useI18n } from "@/locales/client";
+import { CodeIcon } from "@radix-ui/react-icons";
 
 const openSauceBlack = localFont({
   src: "../app/[locale]/fonts/openSauceBlack.ttf",
@@ -61,7 +62,7 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.5 }}
               className={openSauceBlack.className}
             >
-              Antoine Picard
+              Antoine Picard 👋
             </motion.strong>
           </div>
         </motion.div>
@@ -73,13 +74,15 @@ export const About = () => {
         className="my-4 text-lg"
       >
         <motion.h2 variants={item} className="text-2xl italic mb-2">
-          {t("about.webDeveloper")}
+          <div className="flex align-center gap-2">
+            {t("about.webDeveloper")} <CodeIcon className="h-[2rem] w-[2rem]" />
+          </div>
         </motion.h2>
         <motion.p variants={item}>{t("about.description")}</motion.p>
 
         <motion.p
           variants={item}
-          className={`${openSauceBlack.className} text-2xl font-bold mt-5 mb-2`}
+          className={`${openSauceBlack.className} text-2xl font-bold mt-12 mb-2`}
         >
           {t("about.contactMe")}
         </motion.p>

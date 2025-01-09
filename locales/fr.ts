@@ -15,4 +15,7 @@ export default {
     skills: "Compétences",
     experiences: "Expériences",
   },
+  skills: {
+    skills: "Compétences",
+  },
 } as const;
