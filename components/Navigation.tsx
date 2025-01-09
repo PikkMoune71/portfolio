@@ -1,8 +1,6 @@
 "use client";
-
 import * as React from "react";
 import Link from "next/link";
-
 import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
@@ -11,7 +9,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { useI18n, useScopedI18n } from "@/locales/client";
+import { useScopedI18n } from "@/locales/client";
 
 export function Navigation() {
   const t = useScopedI18n("navigation");
