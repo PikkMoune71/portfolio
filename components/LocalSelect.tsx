@@ -7,7 +7,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
 import { GlobeIcon } from "@radix-ui/react-icons"; // Ajouter une icône si souhaitée
 
 export const LocalSelect = () => {
