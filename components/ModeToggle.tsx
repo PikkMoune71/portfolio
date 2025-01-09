@@ -11,7 +11,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useI18n } from "@/locales/client";
 import { LocalSelect } from "./LocalSelect";
-import { draftMode } from "next/headers";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
