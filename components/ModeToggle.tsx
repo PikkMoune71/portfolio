@@ -1,9 +1,7 @@
 "use client";
-
 import * as React from "react";
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
+import { MoonIcon, SunIcon, MixerHorizontalIcon } from "@radix-ui/react-icons";
 import { useTheme } from "next-themes";
-
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -11,27 +9,38 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useI18n } from "@/locales/client";
+import { LocalSelect } from "./LocalSelect";
+import { draftMode } from "next/headers";
 
 export function ModeToggle() {
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const t = useI18n();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="icon" className="rounded-full">
-          <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-          <span className="sr-only">Toggle theme</span>
+          <MixerHorizontalIcon className="h-[1.2rem] w-[1.2rem]" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
-        </DropdownMenuItem>
+        {theme === "light" ? (
+          <DropdownMenuItem onClick={() => setTheme("dark")}>
+            <MoonIcon className="h-[1.2rem] w-[1.2rem]" />
+            <span className="ml-2">{t("darkMode")}</span>
+          </DropdownMenuItem>
+        ) : (
+          <DropdownMenuItem onClick={() => setTheme("light")}>
+            <SunIcon className="h-[1.2rem] w-[1.2rem]" />
+            <span className="ml-2">{t("lightMode")}</span>
+          </DropdownMenuItem>
+        )}
+
+        <LocalSelect />
       </DropdownMenuContent>
     </DropdownMenu>
   );
 }
+
+export default ModeToggle;

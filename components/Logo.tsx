@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const openSauceBlack = localFont({
-  src: "../app/fonts/openSauceBlack.ttf",
+  src: "../app/[locale]/fonts/openSauceBlack.ttf",
   variable: "--font-open-sauce-black",
 });
 

@@ -7,7 +7,7 @@ import { SocialContact } from "./SocialContact";
 import localFont from "next/font/local";
 
 const openSauceBlack = localFont({
-  src: "../app/fonts/openSauceBlack.ttf",
+  src: "../app/[locale]/fonts/openSauceBlack.ttf",
   variable: "--font-open-sauce-black",
 });
 
