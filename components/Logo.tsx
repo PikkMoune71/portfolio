@@ -12,7 +12,7 @@ export const Logo = () => {
     <>
       <Link href="/" passHref>
         <div className="flex">
-          <span className={`${openSauceBlack.className} text-3xl font-bold`}>
+          <span className={`${openSauceBlack.className} text-2xl font-bold`}>
             antoinepicard
           </span>
           <span className="text-xs font-normal writing-mode-vertical-rl leading-3">
