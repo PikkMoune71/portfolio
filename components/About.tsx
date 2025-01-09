@@ -5,6 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
 import { SocialContact } from "./SocialContact";
 import localFont from "next/font/local";
+import { useI18n } from "@/locales/client";
 
 const openSauceBlack = localFont({
   src: "../app/[locale]/fonts/openSauceBlack.ttf",
@@ -12,6 +13,7 @@ const openSauceBlack = localFont({
 });
 
 export const About = () => {
+  const t = useI18n();
   const container = {
     hidden: { opacity: 0, x: -50 },
     visible: {
@@ -71,23 +73,15 @@ export const About = () => {
         className="my-4 text-lg"
       >
         <motion.h2 variants={item} className="text-2xl italic mb-2">
-          Web Developer - Front-end Specialist
+          {t("about.webDeveloper")}
         </motion.h2>
-        <motion.p variants={item}>
-          Recently graduated with a master's degree in web development from Ynov
-          Lyon, I decided to embark on a freelance career. My ambition is to
-          support startups, SMEs, and agencies by offering tailored solutions
-          perfectly suited to their needs. Specializing in technologies such as
-          Vue.js, React, Next.js, and Nuxt.js, I design modern,
-          high-performance, and scalable interfaces that address the unique
-          challenges of each project.
-        </motion.p>
+        <motion.p variants={item}>{t("about.description")}</motion.p>
 
         <motion.p
           variants={item}
           className={`${openSauceBlack.className} text-2xl font-bold mt-5 mb-2`}
         >
-          Contact me
+          {t("about.contactMe")}
         </motion.p>
         <motion.div variants={item}>
           <SocialContact linkedin mail />
