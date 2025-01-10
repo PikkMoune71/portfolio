@@ -32,7 +32,7 @@ export const About = () => {
   };
 
   return (
-    <div className="m-auto py-10 lg:py-14 px-4 max-w-3xl w-full relative">
+    <div className="m-auto py-8 px-6 max-w-5xl w-full relative">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ rotate: 0, scale: 1 }}

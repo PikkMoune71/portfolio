@@ -28,6 +28,7 @@ import { WordpressIcon } from "./icons/WordpressIcon";
 import { GitIcon } from "./icons/GitIcon";
 import { GithubIcon } from "./icons/GithubIcon";
 import { TrelloIcon } from "./icons/TrelloIcon";
+import localFont from "next/font/local";
 
 type Skill = {
   name: string;
@@ -65,6 +66,11 @@ const iconComponents: Record<string, JSX.Element> = {
   TrelloIcon: <TrelloIcon />,
 };
 
+const openSauceBlack = localFont({
+  src: "../app/[locale]/fonts/openSauceBlack.ttf",
+  variable: "--font-open-sauce-black",
+});
+
 export const Skills = () => {
   const t = useScopedI18n("skills");
   const currentLanguage = useCurrentLocale();
@@ -97,7 +103,7 @@ export const Skills = () => {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
-        className="text-4xl mb-2"
+        className={`${openSauceBlack.className} text-4xl mb-2`}
       >
         {t("skills")} 🚀
       </motion.h2>

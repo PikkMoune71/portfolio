@@ -8,7 +8,7 @@ export const Header = () => {
       style={{ height: 80 }}
       className="fixed inset-x-0 z-50 flex h-20 w-screen shadow backdrop-blur-md shadow-none"
     >
-      <div className="mx-auto sm:flex w-full max-w-3xl items-center justify-between px-4 xs:column">
+      <div className="mx-auto sm:flex w-full max-w-5xl items-center justify-between px-4 xs:column">
         <div className="flex justify-center items-center gap-1">
           <h1>
             <Logo />
