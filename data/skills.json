@@ -36,8 +36,8 @@
   },
   {
     "name": "Figma",
-    "levelFr": "Niveau Avancé",
-    "levelEn": "Advanced Level",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
     "icon": "FigmaIcon",
     "category": "UX/UI"
   },
@@ -85,8 +85,8 @@
   },
   {
     "name": "Docker",
-    "levelFr": "Niveau Intermédiaire",
-    "levelEn": "Intermediate Level",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
     "icon": "DockerIcon",
     "category": "CI/CD"
   },
@@ -148,8 +148,8 @@
   },
   {
     "name": "GitHub",
-    "levelFr": "Niveau Intermédiaire",
-    "levelEn": "Intermediate Level",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
     "icon": "GithubIcon",
     "category": "Gestion de projet"
   },
