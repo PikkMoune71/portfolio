@@ -98,7 +98,7 @@ export const Skills = () => {
   );
 
   return (
-    <div className="m-auto py-8 px-6 max-w-5xl w-full relative">
+    <div id="skills" className="m-auto py-8 px-6 max-w-5xl w-full relative">
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
