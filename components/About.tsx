@@ -31,6 +31,14 @@ export const About = () => {
     visible: { opacity: 1, y: 0 },
   };
 
+  const waveAnimation = {
+    rotate: [0, 15, -10, 15, 0],
+    transition: {
+      duration: 1.5,
+      repeat: Infinity,
+    },
+  };
+
   return (
     <div id="about" className="m-auto py-8 px-6 max-w-5xl w-full relative">
       <motion.div
@@ -62,7 +70,15 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.5 }}
               className={openSauceBlack.className}
             >
-              Antoine Picard 👋
+              Antoine Picard{" "}
+              <motion.span
+                className="inline-block"
+                animate={waveAnimation}
+                role="img"
+                aria-label="waving hand"
+              >
+                👋
+              </motion.span>
             </motion.strong>
           </div>
         </motion.div>
