@@ -17,5 +17,7 @@ export default {
   },
   skills: {
     skills: "Compétences",
+    description:
+      "Des compétences solidement acquises tout au long de mon parcours, mêlant formation, projets ambitieux et expériences professionnelles enrichissantes.",
   },
 } as const;

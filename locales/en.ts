@@ -17,5 +17,7 @@ export default {
   },
   skills: {
     skills: "Skills",
+    description:
+      "Skills that have been solidly acquired throughout my career, combining training, ambitious projects and rewarding professional experience.",
   },
 } as const;
