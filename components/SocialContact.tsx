@@ -35,7 +35,7 @@ export const SocialContact: React.FC<SocialContactProps> = (props) => {
           >
             <svg
               fill="#0e76a8"
-              stroke-width="0"
+              strokeWidth="0"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"

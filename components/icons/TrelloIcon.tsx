@@ -18,8 +18,8 @@ export const TrelloIcon = () => {
           y2="100%"
           id="linearGradient-1"
         >
-          <stop stop-color="#0091E6" offset="0%"></stop>
-          <stop stop-color="#0079BF" offset="100%"></stop>
+          <stop stopColor="#0091E6" offset="0%"></stop>
+          <stop stopColor="#0079BF" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g>

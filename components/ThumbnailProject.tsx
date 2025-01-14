@@ -6,7 +6,6 @@ import Link from "next/link";
 import localFont from "next/font/local";
 
 interface ThumbnailProjectProps {
-  key?: number;
   title?: string;
   descriptionFr?: string;
   descriptionEn?: string;
@@ -31,7 +30,7 @@ export const ThumbnailProject: React.FC<ThumbnailProjectProps> = (props) => {
           props.rotate && `${props.rotate}`
         )}
       >
-        <Link href={props.link || "/"} key={props.key} target="_blank">
+        <Link href={props.link || "/"} target="_blank">
           <div className="relative">
             <Image
               src={props.image || "/default-image.png"}
