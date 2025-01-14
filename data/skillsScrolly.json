@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Nuxt.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NuxtJs",
+    "category": "Front-End"
+  },
+  {
+    "name": "Vue.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "VueJS",
+    "category": "Front-End"
+  },
+
+  {
+    "name": "Figma",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "FigmaIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "CSS",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "CssIcon",
+    "category": "UX/UI"
+  },
+
+  {
+    "name": "Nest.js",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
+    "icon": "NestIcon",
+    "category": "Back-End"
+  },
+
+  {
+    "name": "MySQL",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "MySqlIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "Docker",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
+    "icon": "DockerIcon",
+    "category": "CI/CD"
+  },
+
+  {
+    "name": "Typescript",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "Typescript",
+    "category": "Langage"
+  },
+  {
+    "name": "Javascript",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "JavascriptIcon",
+    "category": "Langage"
+  },
+
+  {
+    "name": "HTML",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "HtmlIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "Git",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "GitIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "GitHub",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "GithubIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "Trello",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "TrelloIcon",
+    "category": "Gestion de projet"
+  }
+]
