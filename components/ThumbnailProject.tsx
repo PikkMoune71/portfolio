@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Card } from "./ui/card";
 import clsx from "clsx";
-import { useCurrentLocale, useScopedI18n } from "@/locales/client";
+import { useCurrentLocale } from "@/locales/client";
 import Link from "next/link";
 import localFont from "next/font/local";
 
