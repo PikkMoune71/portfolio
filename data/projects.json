@@ -21,7 +21,7 @@
     "descriptionEn": "A platform to generate leads for an independent",
     "image": "/sasu-michelot.png",
     "link": "https://sasu-michelot.fr/",
-    "rotate": "rotate-3"
+    "rotate": "-rotate-3"
   },
   {
     "title": "Application Buvette",
@@ -29,7 +29,7 @@
     "descriptionEn": "Bar management for a football club",
     "image": "/buvette.png",
     "link": "/",
-    "rotate": "-rotate-3"
+    "rotate": "rotate-3"
   },
   {
     "title": "Web Services",
@@ -37,7 +37,7 @@
     "descriptionEn": "Authentication, CRUD in Express.js",
     "image": "/webservices.png",
     "link": "/",
-    "rotate": "rotate-3"
+    "rotate": "-rotate-3"
   },
   {
     "title": "Vue 3 - E-Commerce",
@@ -45,6 +45,6 @@
     "descriptionEn": "E-Commerce with Vue 3",
     "image": "/vue-e-commerce.png",
     "link": "/",
-    "rotate": "-rotate-3"
+    "rotate": "rotate-3"
   }
 ]
