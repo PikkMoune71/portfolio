@@ -30,7 +30,7 @@ export const ThumbnailProject: React.FC<ThumbnailProjectProps> = (props) => {
           props.rotate && `${props.rotate}`
         )}
       >
-        <Link href={props.link || "/"} target="_blank">
+        <Link href={props.link || "/"}>
           <div className="relative">
             <Image
               src={props.image || "/default-image.png"}
