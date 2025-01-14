@@ -20,4 +20,9 @@ export default {
     description:
       "Des compétences solidement acquises tout au long de mon parcours, mêlant formation, projets ambitieux et expériences professionnelles enrichissantes.",
   },
+  projects: {
+    projectsSelected: "Sélection de projets",
+    description:
+      "Des projets variés, réalisés avec passion et professionnalisme, qui illustrent mon savoir-faire et mes compétences techniques.",
+  },
 } as const;
