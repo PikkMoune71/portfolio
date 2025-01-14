@@ -22,6 +22,9 @@ import {
   GitIcon,
   GithubIcon,
   TrelloIcon,
+  QuasarIcon,
+  PostgreIcon,
+  FirebaseIcon,
 } from "@/components/icons";
 
 export type Skill = {
@@ -56,4 +59,7 @@ export const iconComponents: Record<string, JSX.Element> = {
   GitIcon: <GitIcon />,
   GithubIcon: <GithubIcon />,
   TrelloIcon: <TrelloIcon />,
+  QuasarIcon: <QuasarIcon />,
+  PostgreIcon: <PostgreIcon />,
+  FirebaseIcon: <FirebaseIcon />,
 };

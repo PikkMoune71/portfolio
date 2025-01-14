@@ -21,3 +21,6 @@ export { WordpressIcon } from "./WordpressIcon";
 export { GitIcon } from "./GitIcon";
 export { GithubIcon } from "./GithubIcon";
 export { TrelloIcon } from "./TrelloIcon";
+export { QuasarIcon } from "./QuasarIcon";
+export { PostgreIcon } from "./PostgreIcon";
+export { FirebaseIcon } from "./FirebaseIcon";

@@ -7,25 +7,17 @@
     "category": "Front-End"
   },
   {
-    "name": "Vue.js",
+    "name": "Quasar",
     "levelFr": "Niveau Intermédiaire",
     "levelEn": "Intermediate Level",
-    "icon": "VueJS",
-    "category": "Front-End"
+    "icon": "QuasarIcon",
+    "category": "UX/UI"
   },
-
   {
     "name": "Figma",
     "levelFr": "Niveau Intermédiaire",
     "levelEn": "Intermediate Level",
     "icon": "FigmaIcon",
-    "category": "UX/UI"
-  },
-  {
-    "name": "CSS",
-    "levelFr": "Niveau Avancé",
-    "levelEn": "Advanced Level",
-    "icon": "CssIcon",
     "category": "UX/UI"
   },
 
@@ -36,12 +28,18 @@
     "icon": "NestIcon",
     "category": "Back-End"
   },
-
   {
-    "name": "MySQL",
+    "name": "Postgre SQL",
     "levelFr": "Niveau Intermédiaire",
     "levelEn": "Intermediate Level",
-    "icon": "MySqlIcon",
+    "icon": "PostgreIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "Firebase",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Biginner Level",
+    "icon": "FirebaseIcon",
     "category": "BDD"
   },
   {
@@ -57,21 +55,6 @@
     "levelFr": "Niveau Intermédiaire",
     "levelEn": "Intermediate Level",
     "icon": "Typescript",
-    "category": "Langage"
-  },
-  {
-    "name": "Javascript",
-    "levelFr": "Niveau Avancé",
-    "levelEn": "Advanced Level",
-    "icon": "JavascriptIcon",
-    "category": "Langage"
-  },
-
-  {
-    "name": "HTML",
-    "levelFr": "Niveau Avancé",
-    "levelEn": "Advanced Level",
-    "icon": "HtmlIcon",
     "category": "Langage"
   },
   {
