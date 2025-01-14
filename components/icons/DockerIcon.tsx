@@ -11,7 +11,7 @@ export const DockerIcon = () => {
     >
       <path
         stroke="#066da5"
-        stroke-width="38"
+        strokeWidth="38"
         d="M296 226h42m-92 0h42m-91 0h42m-91 0h41m-91 0h42m8-46h41m8 0h42m7 0h42m-42-46h42"
       />
       <path

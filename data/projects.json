@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Scrolly",
+    "descriptionFr": "Plateforme simplifiant la recherche et la candidature à des alternances et stages.",
+    "descriptionEn": "Platform simplifying the search and application for apprenticeships and internships.",
+    "image": "/scrolly.png",
+    "link": "/",
+    "rotate": "-rotate-3"
+  },
+  {
+    "title": "Alternance SGMN E-Trade",
+    "descriptionFr": "E-Commerce, Logistique, ERP et sites vitrine",
+    "descriptionEn": "E-Commerce, Logistics, ERP and showcase sites",
+    "image": "/sgmn.png",
+    "link": "/",
+    "rotate": "rotate-3"
+  },
+  {
+    "title": "Formulaire Next.js",
+    "descriptionFr": "Une plateforme pour générer des leads pour un indépendant",
+    "descriptionEn": "A platform to generate leads for an independent",
+    "image": "/sasu-michelot.png",
+    "link": "https://sasu-michelot.fr/",
+    "rotate": "-rotate-3"
+  },
+  {
+    "title": "Application Buvette",
+    "descriptionFr": "Gestion de buvette pour un club de football",
+    "descriptionEn": "Bar management for a football club",
+    "image": "/buvette.png",
+    "link": "/",
+    "rotate": "rotate-3"
+  },
+  {
+    "title": "Web Services",
+    "descriptionFr": "Authentification, CRUD en Express.js",
+    "descriptionEn": "Authentication, CRUD in Express.js",
+    "image": "/webservices.png",
+    "link": "/",
+    "rotate": "-rotate-3"
+  },
+  {
+    "title": "Vue 3 - E-Commerce",
+    "descriptionFr": "E-Commerce avec Vue 3",
+    "descriptionEn": "E-Commerce with Vue 3",
+    "image": "/vue-e-commerce.png",
+    "link": "/",
+    "rotate": "rotate-3"
+  }
+]

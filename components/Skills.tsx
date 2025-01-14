@@ -92,7 +92,6 @@ export const Skills = () => {
     visible: { opacity: 1, y: 0 },
   };
 
-  // Récupérer les catégories uniques depuis les données
   const categories = Array.from(
     new Set(typedSkillsData.map((skill) => skill.category))
   );
@@ -107,6 +106,14 @@ export const Skills = () => {
       >
         {t("skills")} 🚀
       </motion.h2>
+      <motion.p
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 0.2 }}
+        className="text-lg text-muted-foreground mb-6"
+      >
+        {t("description")}
+      </motion.p>
       <motion.div
         variants={container}
         initial="hidden"

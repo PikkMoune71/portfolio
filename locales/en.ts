@@ -17,5 +17,12 @@ export default {
   },
   skills: {
     skills: "Skills",
+    description:
+      "Skills that have been solidly acquired throughout my career, combining training, ambitious projects and rewarding professional experience.",
+  },
+  projects: {
+    projectsSelected: "Selected projects",
+    description:
+      "A variety of projects, carried out with passion and professionalism, that illustrate my expertise and technical skills.",
   },
 } as const;
