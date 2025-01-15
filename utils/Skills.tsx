@@ -1,0 +1,65 @@
+import {
+  NextJs,
+  ReactJs,
+  VueJS,
+  NuxtJs,
+  Tailwind,
+  FigmaIcon,
+  CssIcon,
+  ExpressIcon,
+  SymfonyIcon,
+  NestIcon,
+  MongoDbIcon,
+  MySqlIcon,
+  DockerIcon,
+  VercelIcon,
+  Typescript,
+  JavascriptIcon,
+  PhpIcon,
+  HtmlIcon,
+  PrestashopIcon,
+  WordpressIcon,
+  GitIcon,
+  GithubIcon,
+  TrelloIcon,
+  QuasarIcon,
+  PostgreIcon,
+  FirebaseIcon,
+} from "@/components/icons";
+
+export type Skill = {
+  name: string;
+  levelFr: string;
+  levelEn: string;
+  icon: keyof typeof iconComponents;
+  category: string;
+};
+
+export const iconComponents: Record<string, JSX.Element> = {
+  NextJs: <NextJs />,
+  ReactJs: <ReactJs />,
+  VueJS: <VueJS />,
+  NuxtJs: <NuxtJs />,
+  Tailwind: <Tailwind />,
+  FigmaIcon: <FigmaIcon />,
+  CssIcon: <CssIcon />,
+  ExpressIcon: <ExpressIcon />,
+  SymfonyIcon: <SymfonyIcon />,
+  NestIcon: <NestIcon />,
+  MongoDbIcon: <MongoDbIcon />,
+  MySqlIcon: <MySqlIcon />,
+  DockerIcon: <DockerIcon />,
+  VercelIcon: <VercelIcon />,
+  Typescript: <Typescript />,
+  JavascriptIcon: <JavascriptIcon />,
+  PhpIcon: <PhpIcon />,
+  HtmlIcon: <HtmlIcon />,
+  PrestashopIcon: <PrestashopIcon />,
+  WordpressIcon: <WordpressIcon />,
+  GitIcon: <GitIcon />,
+  GithubIcon: <GithubIcon />,
+  TrelloIcon: <TrelloIcon />,
+  QuasarIcon: <QuasarIcon />,
+  PostgreIcon: <PostgreIcon />,
+  FirebaseIcon: <FirebaseIcon />,
+};

@@ -45,12 +45,12 @@ export const Project = () => {
         {projects.map((project, index) => (
           <ThumbnailProject
             key={index}
+            index={index}
             title={project.title}
             descriptionFr={project.descriptionFr}
             descriptionEn={project.descriptionEn}
             image={project.image}
             link={project.link}
-            rotate={project.rotate}
           />
         ))}
       </div>

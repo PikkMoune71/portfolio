@@ -6,12 +6,12 @@ import Link from "next/link";
 import localFont from "next/font/local";
 
 interface ThumbnailProjectProps {
+  index: number;
   title?: string;
   descriptionFr?: string;
   descriptionEn?: string;
   image?: string;
   link?: string;
-  rotate?: string;
 }
 
 const openSauceBlack = localFont({
@@ -22,36 +22,36 @@ const openSauceBlack = localFont({
 export const ThumbnailProject: React.FC<ThumbnailProjectProps> = (props) => {
   const currentLanguage = useCurrentLocale();
 
+  const rotationClass = props.index % 2 === 0 ? "-rotate-3" : "rotate-3";
+
   return (
-    <>
-      <Card
-        className={clsx(
-          "max-w-xs rounded-xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:rotate-0 hover:scale-105 m-4 bg-neutral-900 hover:bg-white text-white hover:text-black border-4",
-          props.rotate && `${props.rotate}`
-        )}
-      >
-        <Link href={props.link || "/"} target="_blank">
-          <div className="relative">
-            <Image
-              src={props.image || "/default-image.png"}
-              width={400}
-              height={400}
-              alt={props.title || "Project"}
-              style={{ aspectRatio: "2" }}
-            />
-          </div>
-          <div className="p-4">
-            <h3 className={`${openSauceBlack.className} text-xl font-bold`}>
-              {props.title}
-            </h3>
-            <p className="text-sm text-gray-400">
-              {currentLanguage === "en"
-                ? props.descriptionEn
-                : props.descriptionFr}
-            </p>
-          </div>
-        </Link>
-      </Card>
-    </>
+    <Card
+      className={clsx(
+        "max-w-xs rounded-xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:rotate-0 hover:scale-105 m-4 bg-neutral-900 hover:bg-white text-white hover:text-black border-4",
+        rotationClass
+      )}
+    >
+      <Link href={props.link || "/"}>
+        <div className="relative">
+          <Image
+            src={props.image || "/default-image.png"}
+            width={400}
+            height={400}
+            alt={props.title || "Project"}
+            style={{ aspectRatio: "2" }}
+          />
+        </div>
+        <div className="p-4">
+          <h3 className={`${openSauceBlack.className} text-xl font-bold`}>
+            {props.title}
+          </h3>
+          <p className="text-sm text-gray-400">
+            {currentLanguage === "en"
+              ? props.descriptionEn
+              : props.descriptionFr}
+          </p>
+        </div>
+      </Link>
+    </Card>
   );
 };

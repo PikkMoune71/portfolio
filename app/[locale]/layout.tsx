@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@vercel/analytics/react";
 import { Providers } from "./providers";
+import { Header } from "@/components/Header";
+import ModeToggle from "@/components/ModeToggle";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,7 +42,12 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <Header />
+            <div className="h-20"></div>
             {children}
+            <div className="fixed bottom-10 right-10">
+              <ModeToggle />
+            </div>
           </ThemeProvider>
         </Providers>
         <Analytics />

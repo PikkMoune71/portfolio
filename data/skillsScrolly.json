@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Nuxt.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NuxtJs",
+    "category": "Front-End"
+  },
+  {
+    "name": "Quasar",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "QuasarIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Figma",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "FigmaIcon",
+    "category": "UX/UI"
+  },
+
+  {
+    "name": "Nest.js",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
+    "icon": "NestIcon",
+    "category": "Back-End"
+  },
+  {
+    "name": "Postgre SQL",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "PostgreIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "Firebase",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Biginner Level",
+    "icon": "FirebaseIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "Docker",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
+    "icon": "DockerIcon",
+    "category": "CI/CD"
+  },
+
+  {
+    "name": "Typescript",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "Typescript",
+    "category": "Langage"
+  },
+  {
+    "name": "Git",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "GitIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "GitHub",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "GithubIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "Trello",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "TrelloIcon",
+    "category": "Gestion de projet"
+  }
+]
