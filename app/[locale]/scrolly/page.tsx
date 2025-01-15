@@ -79,7 +79,6 @@ export default function Scrolly() {
           Slide {current} of {count}
         </div>
       </div>
-
       <div className="text-center mt-10">
         <motion.h2
           initial={{ opacity: 0, scale: 0.8 }}
@@ -155,6 +154,14 @@ export default function Scrolly() {
             />
           ))}
       </motion.div>
+      <motion.h2
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        className={`${openSauceBlack.className} text-4xl mt-10 mb-2`}
+      >
+        {t("annex")}
+      </motion.h2>
     </div>
   );
 }
