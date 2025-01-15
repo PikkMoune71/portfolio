@@ -28,7 +28,7 @@ export const ThumbnailProject: React.FC<ThumbnailProjectProps> = (props) => {
     <Card
       className={clsx(
         "max-w-xs rounded-xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:rotate-0 hover:scale-105 m-4 bg-neutral-900 hover:bg-white text-white hover:text-black border-4",
-        rotationClass // Appliquer la classe dynamique ici
+        rotationClass
       )}
     >
       <Link href={props.link || "/"}>

@@ -94,7 +94,9 @@ export default function Scrolly() {
         >
           Scrolly
         </motion.h2>
-        <span className="text-lg text-muted-foreground">Janvier 2024</span>
+        <span className="text-lg text-muted-foreground">
+          {t("january")} 2024
+        </span>
       </div>
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
@@ -166,7 +168,7 @@ export default function Scrolly() {
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
         className={`${openSauceBlack.className} text-4xl mt-10 mb-2`}
       >
-        {t("annex")}
+        {t("annexes")}
       </motion.h2>
       <div className="flex justify-center align-center gap-6">
         <PdfViewer src={filePdf1} />
