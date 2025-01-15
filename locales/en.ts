@@ -33,5 +33,6 @@ export default {
     descriptionScrolly:
       "Scrolly is a revolutionary Progressive Web App (PWA) designed to simplify the process of finding and applying for work experience and internship opportunities for students. Currently, this process is often complex and time-consuming, involving navigating multiple platforms and communication channels. On the other hand, companies have difficulty finding candidates who match their specific needs among a multitude of untargeted applications. Scrolly centralises and simplifies this process, offering an intuitive and efficient platform. By digitising and automating certain key stages in the recruitment process, Scrolly aims to become a major player in the field of work-study and placement recruitment, facilitating the connection between students and companies.",
     technologyUsed: "Technologies used",
+    annex: "Annex",
   },
 } as const;

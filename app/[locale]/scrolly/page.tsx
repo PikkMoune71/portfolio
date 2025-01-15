@@ -15,6 +15,7 @@ import { useEffect, useState } from "react";
 import { typedSkillsScrolly, categories } from "@/data/skills";
 import { SkillCategory } from "@/components/SkillsCategory";
 import { openSauceBlack, animations } from "@/utils/constant";
+import { PdfViewer } from "@/components/PdfViewer";
 
 export default function Scrolly() {
   const images = [
@@ -28,6 +29,11 @@ export default function Scrolly() {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
+
+  const filePdf1 =
+    "/scrolly/Bloc 2 Titre RNCP Expert Informatique et Systèmes d’information.pdf";
+  const filePdf2 =
+    "/scrolly/Bloc 3 Titre RNCP Expert Informatique et Systèmes d’information.pdf";
 
   useEffect(() => {
     if (!api) {
@@ -162,6 +168,10 @@ export default function Scrolly() {
       >
         {t("annex")}
       </motion.h2>
+      <div className="flex justify-center align-center gap-6">
+        <PdfViewer src={filePdf1} />
+        <PdfViewer src={filePdf2} />
+      </div>
     </div>
   );
 }
