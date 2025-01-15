@@ -31,9 +31,9 @@ export default function Scrolly() {
   const [count, setCount] = useState(0);
 
   const filePdf1 =
-    "/scrolly/Bloc 2 Titre RNCP Expert Informatique et Systèmes d’information.pdf";
+    "/scrolly/Bloc_2_Titre_RNCP_Expert_Informatique_et_Systèmes_d_information.pdf";
   const filePdf2 =
-    "/scrolly/Bloc 3 Titre RNCP Expert Informatique et Systèmes d’information.pdf";
+    "/scrolly/Bloc_3_Titre_RNCP_Expert_Informatique_et_Systèmes_d_information.pdf";
 
   useEffect(() => {
     if (!api) {
@@ -170,7 +170,7 @@ export default function Scrolly() {
       >
         {t("annexes")}
       </motion.h2>
-      <div className="flex justify-center align-center gap-6">
+      <div className="flex justify-center align-center gap-6 flex-wrap">
         <PdfViewer src={filePdf1} />
         <PdfViewer src={filePdf2} />
       </div>
