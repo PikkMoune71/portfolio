@@ -35,5 +35,7 @@ export default {
     technologyUsed: "Technologies used",
     annexes: "Annexes",
     january: "Juanary",
+    downloadBlock2: "Download block 2",
+    downloadBlock3: "Download block 3",
   },
 } as const;

@@ -179,16 +179,16 @@ export default function Scrolly() {
             <a
               href={filePdf1}
               download
-              className="bg-zinc-900 text-white py-2 px-4 rounded hover:bg-blue-600 transition"
+              className="bg-zinc-900 text-white py-2 px-4 rounded transition"
             >
-              Télécharger Bloc 2
+              {t("downloadBlock2")}
             </a>
             <a
               href={filePdf2}
               download
-              className="bg-zinc-900 text-white py-2 px-4 rounded hover:bg-blue-600 transition"
+              className="bg-zinc-900 text-white py-2 px-4 rounded transition"
             >
-              Télécharger Bloc 3
+              {t("downloadBlock3")}
             </a>
           </>
         ) : (
