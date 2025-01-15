@@ -16,6 +16,7 @@ import { typedSkillsScrolly, categories } from "@/data/skills";
 import { SkillCategory } from "@/components/SkillsCategory";
 import { openSauceBlack, animations } from "@/utils/constant";
 import { PdfViewer } from "@/components/PdfViewer";
+import { useIsMobileOrTablet } from "@/composables/useIsMobileOrTablet";
 
 export default function Scrolly() {
   const images = [
@@ -29,6 +30,8 @@ export default function Scrolly() {
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
+
+  const isMobileOrTablet = useIsMobileOrTablet();
 
   const filePdf1 =
     "/scrolly/Bloc_2_Titre_RNCP_Expert_Informatique_et_Systèmes_d_information.pdf";
@@ -171,8 +174,29 @@ export default function Scrolly() {
         {t("annexes")}
       </motion.h2>
       <div className="flex justify-center align-center gap-6 flex-wrap">
-        <PdfViewer src={filePdf1} />
-        <PdfViewer src={filePdf2} />
+        {isMobileOrTablet ? (
+          <>
+            <a
+              href={filePdf1}
+              download
+              className="bg-zinc-900 text-white py-2 px-4 rounded transition"
+            >
+              {t("downloadBlock2")}
+            </a>
+            <a
+              href={filePdf2}
+              download
+              className="bg-zinc-900 text-white py-2 px-4 rounded transition"
+            >
+              {t("downloadBlock3")}
+            </a>
+          </>
+        ) : (
+          <>
+            <PdfViewer src={filePdf1} />
+            <PdfViewer src={filePdf2} />
+          </>
+        )}
       </div>
     </div>
   );
