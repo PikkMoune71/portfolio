@@ -38,4 +38,9 @@ export default {
     downloadBlock2: "Download block 2",
     downloadBlock3: "Download block 3",
   },
+  experencies: {
+    experiences: "Experiences",
+    description: "Discover my professional experiences & education",
+    formations: "Formations",
+  },
 } as const;

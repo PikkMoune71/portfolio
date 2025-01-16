@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Développeur Front-End",
+    "company": "Freelance",
+    "location": "Chalon-sur-Saône 71100, France",
+    "status": "En cours"
+  },
+  {
+    "id": 2,
+    "title": "Alternant Développeur Front-End",
+    "company": "SGMN E-Trade",
+    "location": "Écuisses 71210, France",
+    "date": "Septembre 2021 - Septembre 2024"
+  },
+  {
+    "id": 3,
+    "title": "Stagiaire Webmaster",
+    "company": "SGMN E-Trade",
+    "location": "Écuisses 71210, France",
+    "date": "Janvier 2021 - Février 2021"
+  },
+  {
+    "id": 4,
+    "title": "Vendanges, Travail d'été",
+    "company": "Domaine Guillot",
+    "location": "Mercurey 71640, France",
+    "date": "Août 2020"
+  },
+  {
+    "id": 5,
+    "title": "Travail d'été",
+    "company": "SARL F.L.EC",
+    "location": "Saint-Martin-sous-Montaigu 71640, France",
+    "date": "Juillet 2019"
+  },
+  {
+    "id": 6,
+    "title": "Travail d'été",
+    "company": "SAS NEXTIS",
+    "location": "Chalon-sur-Saône 71100, France",
+    "date": "Juin 2017"
+  }
+]
