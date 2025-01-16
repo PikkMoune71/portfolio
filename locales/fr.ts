@@ -38,4 +38,9 @@ export default {
     downloadBlock2: "Télécharger le bloc 2",
     downloadBlock3: "Télécharger le bloc 3",
   },
+  experencies: {
+    experiences: "Expériences",
+    description: "Découvrez mes expériences professionnelles & éducatives",
+    formations: "Formations",
+  },
 } as const;

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Ynov Campus",
+    "location": "Lyon",
+    "degree": "Mastère expert Développement Web",
+    "date": "2022 - 2024",
+    "icon": "ynovIcon.png"
+  },
+  {
+    "id": 2,
+    "title": "HETIC",
+    "location": "Montrueil",
+    "degree": "3ème année Bachelor Développement Web",
+    "date": "2021 - 2022",
+    "icon": "heticIcon.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Lycée Mathias",
+    "location": "Chalon-sur-Saône",
+    "degree": "BTS SIO Option SLAM",
+    "date": "2019 - 2021",
+    "icon": "diplome.png"
+  },
+  {
+    "id": 4,
+    "title": "Lycée Saint-Charles",
+    "location": "Chalon-sur-Saône",
+    "degree": "Baccalauréat STMG",
+    "date": "Mention AB",
+    "icon": "diplome.png"
+  }
+]
