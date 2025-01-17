@@ -15,30 +15,40 @@
   },
   {
     "id": 3,
+    "title": "Chef de projet - Mentor.io",
+    "company": "Ynov Campus - Ydays",
+    "location": "Lyon 69007, France",
+    "date": "Octobre 2023 - Juin 2024"
+  },
+  {
+    "id": 4,
     "title": "Stagiaire Webmaster",
     "company": "SGMN E-Trade",
     "location": "Écuisses 71210, France",
     "date": "Janvier 2021 - Février 2021"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Vendanges, Travail d'été",
     "company": "Domaine Guillot",
     "location": "Mercurey 71640, France",
-    "date": "Août 2020"
-  },
-  {
-    "id": 5,
-    "title": "Travail d'été",
-    "company": "SARL F.L.EC",
-    "location": "Saint-Martin-sous-Montaigu 71640, France",
-    "date": "Juillet 2019"
+    "date": "Août 2020",
+    "status": "hidden"
   },
   {
     "id": 6,
     "title": "Travail d'été",
+    "company": "SARL F.L.EC",
+    "location": "Saint-Martin-sous-Montaigu 71640, France",
+    "date": "Juillet 2019",
+    "status": "hidden"
+  },
+  {
+    "id": 7,
+    "title": "Travail d'été",
     "company": "SAS NEXTIS",
     "location": "Chalon-sur-Saône 71100, France",
-    "date": "Juin 2017"
+    "date": "Juin 2017",
+    "status": "hidden"
   }
 ]

@@ -12,7 +12,15 @@
     "descriptionFr": "E-Commerce, Logistique, ERP et sites vitrine",
     "descriptionEn": "E-Commerce, Logistics, ERP and showcase sites",
     "image": "/sgmn.png",
-    "link": "/",
+    "link": "/sgmn-e-trade",
+    "rotate": "rotate-3"
+  },
+  {
+    "title": "Mentor.io",
+    "descriptionFr": "Ydays - Chef de projet pour une plateforme de mentorat",
+    "descriptionEn": "Ydays - Project manager for a mentoring platform",
+    "image": "/mentorio.png",
+    "link": "/mentor-io",
     "rotate": "rotate-3"
   },
   {
@@ -20,7 +28,7 @@
     "descriptionFr": "Une plateforme pour générer des leads pour un indépendant",
     "descriptionEn": "A platform to generate leads for an independent",
     "image": "/sasu-michelot.png",
-    "link": "https://sasu-michelot.fr/",
+    "link": "/formulaire-nextjs",
     "rotate": "-rotate-3"
   },
   {
@@ -28,7 +36,7 @@
     "descriptionFr": "Gestion de buvette pour un club de football",
     "descriptionEn": "Bar management for a football club",
     "image": "/buvette.png",
-    "link": "/",
+    "link": "/buvette",
     "rotate": "rotate-3"
   },
   {
@@ -36,15 +44,7 @@
     "descriptionFr": "Authentification, CRUD en Express.js",
     "descriptionEn": "Authentication, CRUD in Express.js",
     "image": "/webservices.png",
-    "link": "/",
+    "link": "/web-services",
     "rotate": "-rotate-3"
-  },
-  {
-    "title": "Vue 3 - E-Commerce",
-    "descriptionFr": "E-Commerce avec Vue 3",
-    "descriptionEn": "E-Commerce with Vue 3",
-    "image": "/vue-e-commerce.png",
-    "link": "/",
-    "rotate": "rotate-3"
   }
 ]
