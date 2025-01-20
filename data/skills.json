@@ -119,6 +119,13 @@
     "category": "Langage"
   },
   {
+    "name": "Node.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NodeIcon",
+    "category": "Langage"
+  },
+  {
     "name": "HTML",
     "levelFr": "Niveau Avancé",
     "levelEn": "Advanced Level",

@@ -98,4 +98,52 @@ export default {
 
     technologyUsed: "Technologies used",
   },
+
+  mentorio: {
+    october: "October",
+    june: "June",
+    context: "Context",
+    contexteMentorio:
+      "Mentor.io is an initiative carried out as part of Ydays at Ynov School, a weekly program dedicated to innovation, creativity, and collaboration, allowing students to work on projects of their choice. These days, organized every Wednesday, give students the opportunity to dedicate themselves to a project throughout the year, collaborating with students from various fields and levels (from Bachelor 1 to Master 2). Students can choose to join an existing project or create their own, with increased responsibility when creating a project, notably the responsibility of forming and motivating an interdisciplinary team. The Mentor.io project fits perfectly within this dynamic as a platform aimed at promoting collaborative learning, mentoring, and the sharing of skills. As the project manager, I led this initiative by forming a team of students from different disciplines to create an innovative solution that has both social and educational impact. The project was carried out under the auspices of Ynov's Change Lab incubator, whose mission is to support projects with an innovative economic model and a social and environmental impact. Mentor.io aims to transform the way individuals learn, connect, and contribute positively to society by connecting people with specific skills to those looking to acquire them. The project ran from October 2023 to June 2024, allowing students to work collaboratively on an innovative platform while integrating evaluation tools and systems to encourage interaction and skill transfer.",
+    description: "Description",
+    descriptionMentorio:
+      "Mentor.io is an innovative platform aimed at connecting people with specific skills to those looking to acquire them, while promoting collaborative learning and mentoring. The project targets a wide audience, from students to professionals, and is distinguished by its inclusive approach and positive social impact.",
+    functionnality: [
+      {
+        title: "Key Features and Development Milestones:",
+      },
+      {
+        title: "Wireframes and Login/Sign-up (11/10/2023 - 22/11/2023):",
+        details:
+          "The first step involved creating mobile-first wireframes on Figma for the Progressive Web App (PWA). At the same time, both the back-end and front-end projects were initialized, along with the implementation of user login/sign-up and personal profiles. Two servers were configured: one on GitHub Runner and the other on Docker for infrastructure management.",
+      },
+      {
+        title: "Announcement Creation (13/12/2023):",
+        details:
+          "Users were able to create announcements on both the back-end and front-end, facilitating connections with potential mentors and mentees.",
+      },
+      {
+        title: "Calendar for Scheduling (11/01/2024 - 24/01/2024):",
+        details:
+          "A calendar was developed to allow appointment booking and the scheduling of announcements on specific dates, a crucial feature for organizing mentoring sessions.",
+      },
+      {
+        title: "Video Conferencing and Messaging (14/02/2024 - 29/05/2024):",
+        details:
+          "The implementation of video conferencing facilitated interactions between mentors and mentees. A messaging system was also added to improve ongoing communication between users.",
+      },
+      {
+        title: "Evaluations (Forms with Feedback and Ratings):",
+        details:
+          "A form system was integrated to allow users to provide feedback and ratings, promoting continuous evaluation and tracking of participants' progress.",
+      },
+      {
+        title:
+          "The project gradually developed over several Ydays sessions, a weekly innovation program, and led to the creation of a functional and dynamic platform for collaborative learning.",
+      },
+    ],
+    technologyUsed: "Technologies used",
+    annexes: "Annexes",
+    downloadDoc: "Download the Specifications",
+  },
 } as const;

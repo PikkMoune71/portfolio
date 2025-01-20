@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Nuxt.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NuxtJs",
+    "category": "Front-End"
+  },
+  {
+    "name": "Vuetify",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "VuetifyIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Tailwind CSS",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "Tailwind",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Figma",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "FigmaIcon",
+    "category": "UX/UI"
+  },
+
+  {
+    "name": "Express.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "ExpressIcon",
+    "category": "Back-End"
+  },
+  {
+    "name": "MongoDB",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "MongoDbIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "Docker",
+    "levelFr": "Niveau Débutant",
+    "levelEn": "Beginner Level",
+    "icon": "DockerIcon",
+    "category": "CI/CD"
+  },
+  {
+    "name": "Git",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "GitIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "GitHub",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "GithubIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "Node.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NodeIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "Javascript",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "JavascriptIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "Trello",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "TrelloIcon",
+    "category": "Gestion de projet"
+  }
+]

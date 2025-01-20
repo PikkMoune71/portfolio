@@ -90,4 +90,51 @@ export default {
     },
     technologyUsed: "Technologies utilisées",
   },
+  mentorio: {
+    october: "Octobre",
+    june: "Juin",
+    context: "Contexte",
+    contexteMentorio:
+      "Mentor.io est une initiative réalisée dans le cadre des Ydays à l'école Ynov, un programme hebdomadaire dédié à l'innovation, la créativité et la collaboration, permettant aux étudiants de travailler sur des projets de leur choix. Ces journées, organisées chaque mercredi, offrent la possibilité aux étudiants de se consacrer à un projet tout au long de l'année, en collaborant avec des étudiants de diverses filières et niveaux (du bachelor 1 au mastère 2). Les étudiants ont la possibilité de rejoindre un projet existant ou de créer le leur, avec une responsabilité accrue en cas de création de projet, notamment celle de constituer et de motiver une équipe interdisciplinaire. Le projet Mentor.io s'inscrit parfaitement dans cette dynamique en étant une plateforme visant à favoriser l'apprentissage collaboratif, le mentorat et le partage de compétences. En tant que chef de projet, j'ai dirigé cette initiative en mettant en place une équipe d’étudiants venant de différentes disciplines pour créer une solution innovante ayant à la fois un impact social et éducatif. Le projet a été mené sous l'égide de l'incubateur Change Lab de l'école Ynov, dont la mission est de soutenir des projets ayant un modèle économique innovant avec un impact social et environnemental. Mentor.io a ainsi pour objectif de transformer la manière dont les individus apprennent, se connectent et contribuent positivement à la société, en mettant en relation des personnes disposant de compétences spécifiques avec celles cherchant à les acquérir. Le projet s'est déroulé entre octobre 2023 et juin 2024, et a permis aux étudiants de travailler de manière collaborative sur une plateforme innovante, tout en intégrant des outils d’évaluation et des systèmes permettant d’encourager l'interaction et le transfert de compétences.",
+    description: "Description",
+    descriptionMentorio:
+      "Mentor.io est une plateforme innovante visant à connecter des personnes avec des compétences spécifiques à celles cherchant à les acquérir, tout en favorisant un apprentissage collaboratif et le mentorat. Le projet s'adresse à un public varié, allant des étudiants aux professionnels, et se distingue par son approche inclusive et son impact social positif.",
+    functionnality: [
+      {
+        title: "Fonctionnalités clés et jalons de développement :",
+      },
+      {
+        title: "Maquettes et Connexion/Inscription (11/10/2023 - 22/11/2023) :",
+        details:
+          "La première étape a consisté à créer des maquettes au format mobile first sur Figma pour la Progressive Web App (PWA). En parallèle, les projets back-end et front-end ont été initialisés, ainsi que la mise en place de la connexion/inscription des utilisateurs et des profils personnels. Deux serveurs ont été configurés : un sur GitHub Runner et un autre sur Docker pour la gestion de l'infrastructure.",
+      },
+      {
+        title: "Création d'Annonces (13/12/2023) :",
+        details:
+          "Les utilisateurs ont pu créer des annonces en back-end et front-end, facilitant la mise en relation avec des mentors et mentorés potentiels.",
+      },
+      {
+        title: "Calendrier pour la Planification (11/01/2024 - 24/01/2024) :",
+        details:
+          "Un calendrier a été développé pour permettre la prise de rendez-vous et la planification d'annonces à des dates précises, une fonctionnalité essentielle pour organiser les sessions de mentorat.",
+      },
+      {
+        title: "Visioconférence et Messagerie (14/02/2024 - 29/05/2024) :",
+        details:
+          "La mise en place de la visioconférence a permis de faciliter les interactions entre mentors et mentorés. Un système de messagerie a également été ajouté pour améliorer la communication continue entre les utilisateurs.",
+      },
+      {
+        title: "Évaluations (Formulaires avec avis et notes) :",
+        details:
+          "Un système de formulaires a été intégré pour permettre aux utilisateurs de donner des avis et des notes, favorisant ainsi l'évaluation continue et le suivi des progrès des participants.",
+      },
+      {
+        title:
+          "Le projet s'est progressivement développé sur plusieurs séances des Ydays, un programme d'innovation hebdomadaire, et a permis de créer une plateforme fonctionnelle et dynamique pour l'apprentissage collaboratif.",
+      },
+    ],
+    technologyUsed: "Technologies utilisées",
+    annexes: "Annexes",
+    downloadDoc: "Télécharger le Cahier des charges",
+  },
 } as const;
