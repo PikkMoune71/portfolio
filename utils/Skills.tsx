@@ -25,6 +25,8 @@ import {
   QuasarIcon,
   PostgreIcon,
   FirebaseIcon,
+  BitbucketIcon,
+  SuiteAdobeIcon,
 } from "@/components/icons";
 
 export type Skill = {
@@ -62,4 +64,6 @@ export const iconComponents: Record<string, JSX.Element> = {
   QuasarIcon: <QuasarIcon />,
   PostgreIcon: <PostgreIcon />,
   FirebaseIcon: <FirebaseIcon />,
+  BitbucketIcon: <BitbucketIcon />,
+  SuiteAdobeIcon: <SuiteAdobeIcon />,
 };
