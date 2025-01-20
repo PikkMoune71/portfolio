@@ -26,7 +26,7 @@ export default {
       "Des projets variés, réalisés avec passion et professionnalisme, qui illustrent mon savoir-faire et mes compétences techniques.",
   },
   scrolly: {
-    context: "Context",
+    context: "Contexte",
     contextScrolly:
       "Pour mon projet de fin d’études, j’ai co-développé Scrolly, une plateforme conçue par une équipe de quatre étudiants, dont moi, pour simplifier la recherche d’alternances et de stages. L’objectif était de centraliser et de rendre accessible un processus souvent complexe pour les étudiants, tout en facilitant le recrutement pour les entreprises. Ce projet m’a permis de mettre en œuvre mes compétences en front-end et back-end, tout en intégrant des fonctionnalités avancées pour offrir une expérience utilisateur fluide et intuitive.",
     description: "Description",
@@ -42,5 +42,52 @@ export default {
     experiences: "Expériences",
     description: "Découvrez mes expériences professionnelles & éducatives",
     formations: "Formations",
+  },
+  sgmn: {
+    september: "Septembre",
+    context: "Contexte",
+    contextSgmn:
+      "Durant mes années d'étude en alternance, j'ai eu l'opportunité de travailler chez SGMN E-Trade, une société spécialisée dans la logistique et le e-commerce.",
+    description: "Description",
+    internship: {
+      responsibilities: [
+        {
+          title: "Création et personnalisation de thèmes",
+          details: [
+            "Développement de thèmes sur mesure pour les boutiques e-commerce en utilisant Prestashop.",
+            "Création de modules personnalisés pour répondre aux besoins spécifiques des clients.",
+            "Intégration de designs respectant l’identité visuelle de chaque marque.",
+          ],
+        },
+        {
+          title: "Gestion de la maintenance technique",
+          details: [
+            "Identification et résolution des bugs pour garantir une expérience utilisateur fluide.",
+            "Mise à jour des modules Prestashop et optimisation des performances des sites.",
+          ],
+        },
+        {
+          title: "Amélioration continue",
+          details: [
+            "Implémentation de nouvelles fonctionnalités en réponse aux besoins des clients et des équipes internes.",
+            "Optimisation des interfaces utilisateur pour améliorer le taux de conversion.",
+          ],
+        },
+        {
+          title: "Expérimentation avec WordPress",
+          details: [
+            "Création et maintenance de petites fonctionnalités sur des sites secondaires basés sur WordPress.",
+          ],
+        },
+      ],
+      technical_skills: [
+        "Compétences Techniques développées",
+        "Expertise en Prestashop : création de thèmes, personnalisation et gestion des modules.",
+        "Maîtrise des bases de WordPress pour des projets ponctuels.",
+        "Compétences avancées en HTML, CSS, JavaScript et PHP.",
+        "Notions en SEO technique pour optimiser la visibilité des boutiques en ligne.",
+      ],
+    },
+    technologyUsed: "Technologies utilisées",
   },
 } as const;

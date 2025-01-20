@@ -40,40 +40,43 @@ export const Experiences = () => {
         animate="visible"
         className="grid grid-cols-1 sm:grid-cols-2 gap-8"
       >
-        {companiesData.map((company) => (
-          <div key={company.id} className="mb-4">
-            <div className="flex items-center gap-3 text-xs">
-              {company.status ? (
-                <Badge variant="destructive" className="bg-violet-900">
-                  {company.status}
-                </Badge>
-              ) : (
-                <p className="text-muted-foreground">{company.date}</p>
-              )}
-              <div className="flex gap-1">
-                <Location />
-                <p>{company.location}</p>
+        {companiesData.map(
+          (company) =>
+            company.status !== "hidden" && (
+              <div key={company.id} className="mb-4">
+                <div className="flex items-center gap-3 text-xs">
+                  {company.status ? (
+                    <Badge variant="destructive" className="bg-violet-900">
+                      {company.status}
+                    </Badge>
+                  ) : (
+                    <p className="text-muted-foreground">{company.date}</p>
+                  )}
+                  <div className="flex gap-1">
+                    <Location />
+                    <p>{company.location}</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4 mt-2">
+                  <div>
+                    <Image
+                      src="/company.jpg"
+                      width={70}
+                      height={70}
+                      alt="Company Icon"
+                      className="rounded-3xl"
+                    />
+                  </div>
+                  <div>
+                    <h3 className={`${openSauceBlack.className} text-xl`}>
+                      {company.title}
+                    </h3>
+                    <p className="text-lg">{company.company}</p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="flex items-center gap-4 mt-2">
-              <div>
-                <Image
-                  src="/company.jpg"
-                  width={70}
-                  height={70}
-                  alt="Company Icon"
-                  className="rounded-3xl"
-                />
-              </div>
-              <div>
-                <h3 className={`${openSauceBlack.className} text-xl`}>
-                  {company.title}
-                </h3>
-                <p className="text-lg">{company.company}</p>
-              </div>
-            </div>
-          </div>
-        ))}
+            )
+        )}
       </motion.div>
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}

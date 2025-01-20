@@ -43,4 +43,59 @@ export default {
     description: "Discover my professional experiences & education",
     formations: "Formations",
   },
+  sgmn: {
+    september: "September",
+    context: "Context",
+    contextSgmn:
+      "During my work-study years, I had the opportunity to work for SGMN E-Trade, a company specialising in logistics and e-commerce.",
+    description: "Description",
+    internship: {
+      responsibilities: [
+        {
+          title: "Theme creation and customization",
+          details: [
+            "Developed custom themes for e-commerce stores using Prestashop.",
+            "Created custom modules to meet the specific needs of clients.",
+            "Integrated designs aligned with each brand's visual identity.",
+          ],
+        },
+        {
+          title: "Technical maintenance management",
+          details: [
+            "Identified and resolved bugs to ensure a smooth user experience.",
+            "Updated Prestashop modules and optimized site performance.",
+          ],
+        },
+        {
+          title: "Continuous improvement",
+          details: [
+            "Implemented new features to meet the needs of clients and internal teams.",
+            "Optimized user interfaces to improve conversion rates.",
+          ],
+        },
+        {
+          title: "Experimentation with WordPress",
+          details: [
+            "Created and maintained small features on secondary sites using WordPress.",
+          ],
+        },
+        {
+          title: "Team collaboration",
+          details: [
+            "Worked closely with marketing and logistics teams to align technical solutions with business objectives.",
+            "Participated in agile project management, contributing to a collaborative and efficient work environment.",
+          ],
+        },
+      ],
+      technical_skills: [
+        "Developed Technical Skills",
+        "Expertise in Prestashop: theme creation, customization, and module management.",
+        "Basic proficiency in WordPress for occasional projects.",
+        "Advanced skills in HTML, CSS, JavaScript, and PHP.",
+        "Knowledge of technical SEO to enhance the visibility of e-commerce stores.",
+      ],
+    },
+
+    technologyUsed: "Technologies used",
+  },
 } as const;

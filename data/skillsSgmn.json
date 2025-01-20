@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Prestashop",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "PrestashopIcon",
+    "category": "CMS"
+  },
+  {
+    "name": "Wordpress",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "WordpressIcon",
+    "category": "CMS"
+  },
+  {
+    "name": "CSS",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "CssIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Suite Adobe",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "SuiteAdobeIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Figma",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "FigmaIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Symfony",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "SymfonyIcon",
+    "category": "Back-End"
+  },
+  {
+    "name": "PHP",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "PhpIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "Javascript",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "JavascriptIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "MySQL",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "MySqlIcon",
+    "category": "BDD"
+  },
+  {
+    "name": "HTML",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "HtmlIcon",
+    "category": "Langage"
+  },
+  {
+    "name": "Git",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "GitIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "BitBucket",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "BitbucketIcon",
+    "category": "Gestion de projet"
+  }
+]
