@@ -156,7 +156,7 @@ export default function Sgmn() {
             {t("internship.responsibilities.2.details.0")}
           </li>
           <li className="list-disc ml-10">
-            {t("internship.responsibilities.2.details.2")}
+            {t("internship.responsibilities.2.details.1")}
           </li>
         </ul>
         <ul>
