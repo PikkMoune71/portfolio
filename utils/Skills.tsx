@@ -27,6 +27,8 @@ import {
   FirebaseIcon,
   BitbucketIcon,
   SuiteAdobeIcon,
+  NodeIcon,
+  VuetifyIcon,
 } from "@/components/icons";
 
 export type Skill = {
@@ -66,4 +68,6 @@ export const iconComponents: Record<string, JSX.Element> = {
   FirebaseIcon: <FirebaseIcon />,
   BitbucketIcon: <BitbucketIcon />,
   SuiteAdobeIcon: <SuiteAdobeIcon />,
+  NodeIcon: <NodeIcon />,
+  VuetifyIcon: <VuetifyIcon />,
 };

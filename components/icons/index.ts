@@ -26,3 +26,5 @@ export { PostgreIcon } from "./PostgreIcon";
 export { FirebaseIcon } from "./FirebaseIcon";
 export { BitbucketIcon } from "./BitbucketIcon";
 export { SuiteAdobeIcon } from "./SuiteAdobeIcon";
+export { NodeIcon } from "./NodeIcon";
+export { VuetifyIcon } from "./VuetifyIcon";
