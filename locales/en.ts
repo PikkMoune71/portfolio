@@ -157,4 +157,14 @@ export default {
     technologyUsed: "Technologies Used",
     visitWebsite: "Visit the website",
   },
+  buvette: {
+    october: "October",
+    context: "Context",
+    contextBuvette:
+      "Beverage Application for a football association designed to manage beverage sales during training sessions.",
+    description: "Description",
+    descriptionBuvette:
+      "The application was designed and developed using Next.js, which allowed the creation of a full-stack architecture for both the back-end and the front-end, with MongoDB as the database. It was developed for a football association with the aim of facilitating the management of beverage sales during training sessions. The main features of the application include sales management and order tracking. To ensure data security, the application implements a JSON Web Token (JWT)-based authentication system, guaranteeing secure login for users. The user interface has been designed to be simple, intuitive, and ergonomic, providing a smooth and fast experience for users, even for those with little technological experience. To ensure optimal accessibility, the application was developed as a Progressive Web App (PWA), offering an experience similar to that of a native app while being accessible via a browser. It is also fully responsive, ensuring optimal use on various devices, including smartphones and tablets, thus offering great access flexibility, regardless of the device used.",
+    technologyUsed: "Technologies used",
+  },
 } as const;
