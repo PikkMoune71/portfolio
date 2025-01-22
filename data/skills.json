@@ -35,10 +35,17 @@
     "category": "UX/UI"
   },
   {
-    "name": "Figma",
-    "levelFr": "Niveau Intermédiaire",
-    "levelEn": "Intermediate Level",
-    "icon": "FigmaIcon",
+    "name": "Vuetify",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "VuetifyIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Shadcn/ui",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "ShadcnIcon",
     "category": "UX/UI"
   },
   {
@@ -46,6 +53,20 @@
     "levelFr": "Niveau Avancé",
     "levelEn": "Advanced Level",
     "icon": "CssIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Figma",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "FigmaIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Suite Adobe",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "SuiteAdobeIcon",
     "category": "UX/UI"
   },
   {

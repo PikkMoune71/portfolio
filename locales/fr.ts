@@ -137,4 +137,15 @@ export default {
     annexes: "Annexes",
     downloadDoc: "Télécharger le Cahier des charges",
   },
+  formulaireNextjs: {
+    march: "Mars",
+    context: "Contexte",
+    contextFormulaire:
+      "Un formulaire a été développé pour répondre aux besoins d’un indépendant en quête de nouveaux leads. Ce formulaire, conçu sur mesure, est structuré pour maximiser la collecte d’informations pertinentes auprès des prospects. Chaque champ a été soigneusement pensé pour obtenir des données utiles tout en garantissant une expérience utilisateur simple et agréable.",
+    description: "Description",
+    descriptionFormulaire:
+      "Ce formulaire, conçu avec Next.js, est structuré en plusieurs étapes pour offrir une expérience utilisateur fluide et intuitive. Chaque étape guide l'utilisateur dans la saisie des informations nécessaires, garantissant une collecte de données claire et organisée. Une fois que l'utilisateur valide le formulaire, un système automatisé envoie un email directement à l'indépendant concerné. Cet email contient toutes les informations renseignées dans le formulaire, présentées de manière détaillée et facile à exploiter. En parallèle, une attention particulière a été portée au référencement naturel (SEO) du site. Des techniques spécifiques ont été mises en œuvre, telles que l'optimisation des balises méta, la structuration des contenus à l'aide de balises sémantiques, et l'intégration de mots-clés stratégiques. Ces efforts permettent au site d'être indexé efficacement par les moteurs de recherche comme Google, améliorant ainsi sa visibilité en ligne et sa capacité à attirer un public ciblé. Ce travail d'optimisation contribue à maximiser l'impact du formulaire et à assurer une meilleure portée pour l'indépendant.",
+    technologyUsed: "Technologie utilisées",
+    visitWebsite: "Visiter le site",
+  },
 } as const;

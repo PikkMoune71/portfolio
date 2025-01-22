@@ -28,3 +28,4 @@ export { BitbucketIcon } from "./BitbucketIcon";
 export { SuiteAdobeIcon } from "./SuiteAdobeIcon";
 export { NodeIcon } from "./NodeIcon";
 export { VuetifyIcon } from "./VuetifyIcon";
+export { ShadcnIcon } from "./ShadcnIcon";
