@@ -146,4 +146,15 @@ export default {
     annexes: "Annexes",
     downloadDoc: "Download the Specifications",
   },
+  formulaireNextjs: {
+    march: "March",
+    context: "Context",
+    contextFormulaire:
+      "A form was developed to meet the needs of a freelancer seeking new leads. This custom-designed form is structured to maximize the collection of relevant information from prospects. Each field has been carefully crafted to gather useful data while ensuring a simple and enjoyable user experience.",
+    description: "Description",
+    descriptionFormulaire:
+      "This form, built with Next.js, is designed as a multi-step process to provide a smooth and intuitive user experience. Each step guides the user in entering the required information, ensuring a clear and organized data collection process. Once the form is submitted, an automated system sends an email directly to the freelancer. This email contains all the information entered in the form, presented in a detailed and easy-to-use format. Additionally, special attention was given to the website's search engine optimization (SEO). Specific techniques were implemented, such as meta tag optimization, content structuring with semantic tags, and the integration of strategic keywords. These efforts ensure that the site is efficiently indexed by search engines like Google, enhancing its online visibility and ability to attract a targeted audience. This optimization work maximizes the form's impact and ensures broader reach for the freelancer.",
+    technologyUsed: "Technologies Used",
+    visitWebsite: "Visit the website",
+  },
 } as const;
