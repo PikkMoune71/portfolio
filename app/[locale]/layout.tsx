@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { Providers } from "./providers";
 import { Header } from "@/components/Header";
 import ModeToggle from "@/components/ModeToggle";
+import { Footer } from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -48,6 +49,7 @@ export default function RootLayout({
             <Header />
             <div className="h-20"></div>
             {children}
+            <Footer />
             <div className="fixed bottom-10 right-10">
               <ModeToggle />
             </div>
