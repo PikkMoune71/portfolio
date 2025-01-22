@@ -148,4 +148,14 @@ export default {
     technologyUsed: "Technologie utilisées",
     visitWebsite: "Visiter le site",
   },
+  buvette: {
+    october: "Octobre",
+    context: "Contexte",
+    contextBuvette:
+      "Application Buvette pour une association de football destinée à gérer les ventes de boissons lors des entrainements.",
+    description: "Description",
+    descriptionBuvette:
+      "L'application a été conçue et développée en utilisant Next.js, qui a permis de créer une architecture full-stack pour le back-end et le front-end, avec MongoDB comme base de données. Elle a été développée pour une association de football dans le but de faciliter la gestion des ventes de boissons lors des entraînements. Les principales fonctionnalités de l'application incluent la gestion des ventes, le suivi des commandes. Afin d'assurer la sécurité des données, l'application implémente un système d'authentification basé sur des JSON Web Tokens (JWT), garantissant une connexion sécurisée pour les utilisateurs. L'interface utilisateur a été conçue de manière à être simple, intuitive et ergonomique, offrant une expérience fluide et rapide pour les utilisateurs, même pour ceux ayant peu d'expérience avec la technologie. Pour garantir une accessibilité optimale, l'application a été développée en tant que Progressive Web App (PWA), offrant ainsi une expérience similaire à celle d'une application native tout en étant accessible via un navigateur. Elle est également entièrement responsive, ce qui permet une utilisation optimale sur différents appareils, y compris les smartphones et les tablettes, offrant ainsi une grande flexibilité d'accès, peu importe le type d'appareil utilisé.",
+    technologyUsed: "Technologies utilisées",
+  },
 } as const;

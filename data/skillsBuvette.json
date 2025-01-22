@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Next.js",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "NextJs",
+    "category": "Front-End"
+  },
+  {
+    "name": "Shadcn/ui",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "ShadcnIcon",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Tailwind CSS",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "Tailwind",
+    "category": "UX/UI"
+  },
+  {
+    "name": "Git",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "GitIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "GitHub",
+    "levelFr": "Niveau Avancé",
+    "levelEn": "Advanced Level",
+    "icon": "GithubIcon",
+    "category": "Gestion de projet"
+  },
+  {
+    "name": "Typescript",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "Typescript",
+    "category": "Langage"
+  },
+  {
+    "name": "MongoDB",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "MongoDbIcon",
+    "category": "BDD"
+  }
+]
