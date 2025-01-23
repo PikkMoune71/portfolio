@@ -1,6 +1,6 @@
 # Portoflio
 
-Voici mon porfolio développé en Next.js avec Typescript et l'utilisation de Shadcn et TailwindCSS.
+Voici mon portfolio développé en Next.js avec Typescript et l'utilisation de Shadcn et TailwindCSS.
 
 ## Installation
 
