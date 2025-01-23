@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portoflio
 
-## Getting Started
+Voici mon porfolio développé en Next.js avec Typescript et l'utilisation de Shadcn et TailwindCSS.
 
-First, run the development server:
+## Installation
+
+Cloner le projet :
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# SSH
+git@github.com:PikkMoune71/portfolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# HTTPS
+https://github.com/PikkMoune71/portfolio.git
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd portfolio
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Développement
 
-## Learn More
+Une fois cloner, il faut lancer le projet :
 
-To learn more about Next.js, take a look at the following resources:
+pnpm :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm dev
+```
 
-## Deploy on Vercel
+## Lint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Avant de build, il est nécessaire de lint les erreurs :
+pnpm :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm lint
+```
+
+Corriger si besoin les erreurs.
+
+## Production
+
+Pour lancer le projet en mode production :
+pnpm :
+
+```bash
+pnpm build
+```
+
+## Tech Stack Front
+
+Next.js, Typescript, Shadcn, TailwindCSS, Framer Motion, next-internationnal (traduction)
