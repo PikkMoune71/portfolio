@@ -18,7 +18,7 @@ import { openSauceBlack, animations } from "@/utils/constant";
 import { PdfViewer } from "@/components/PdfViewer";
 import { useIsMobileOrTablet } from "@/composables/useIsMobileOrTablet";
 
-export default function Scrolly() {
+export default function MentorIo() {
   const images = [
     "/mentorio.png",
     "/mentorio/mentorio-1.png",

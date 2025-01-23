@@ -12,20 +12,16 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { useCurrentLocale, useScopedI18n } from "@/locales/client";
 import { useEffect, useState } from "react";
-import { typedSkillsFormNextjs, categories } from "@/data/skills";
+import { typedSkillsWebServices, categories } from "@/data/skills";
 import { SkillCategory } from "@/components/SkillsCategory";
 import { openSauceBlack, animations } from "@/utils/constant";
-import { ExternalLink } from "lucide-react";
+import { Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export default function FormulaireNextjs() {
-  const images = [
-    "/sasu-michelot.png",
-    "/formulaireNextjs/form-1.png",
-    "/formulaireNextjs/form-2.png",
-  ];
-  const t = useScopedI18n("formulaireNextjs");
+export default function WebServices() {
+  const images = ["/webservices.png", "/web-services/webservices-1.png"];
+  const t = useScopedI18n("webservices");
   const currentLanguage = useCurrentLocale();
 
   const [api, setApi] = useState<CarouselApi>();
@@ -89,18 +85,18 @@ export default function FormulaireNextjs() {
           transition={{ type: "spring", stiffness: 300, damping: 20 }}
           className={`${openSauceBlack.className} text-6xl`}
         >
-          Formulaire Next.js
+          Web Services
         </motion.h2>
         <span className="text-lg text-muted-foreground">{t("march")} 2024</span>
       </div>
       <Button className="text-xl flex items-center gap-2">
         <Link
-          href="https://sasu-michelot.fr"
+          href="https://github.com/PikkMoune71/picard-antoine-webservices"
           target="_blank"
           className="flex items-center gap-2"
         >
-          <span>{t("visitWebsite")}</span>
-          <ExternalLink className="w-5 h-5" />
+          <span>Github</span>
+          <Github className="w-3 h-3" />
         </Link>
       </Button>
       <motion.h2
@@ -117,7 +113,7 @@ export default function FormulaireNextjs() {
         transition={{ delay: 0.2 }}
         className="text-lg text-justify"
       >
-        {t("contextFormulaire")}
+        {t("contextWebServices")}
       </motion.p>
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
@@ -133,7 +129,7 @@ export default function FormulaireNextjs() {
         transition={{ delay: 0.2 }}
         className="text-lg"
       >
-        {t("descriptionFormulaire")}
+        {t("descriptionWebServices")}
       </motion.p>
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
@@ -152,7 +148,7 @@ export default function FormulaireNextjs() {
         {categories
           .map((category) => ({
             category,
-            skills: typedSkillsFormNextjs.filter(
+            skills: typedSkillsWebServices.filter(
               (skill) => skill.category === category
             ),
           }))

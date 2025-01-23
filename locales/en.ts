@@ -167,4 +167,14 @@ export default {
       "The application was designed and developed using Next.js, which allowed the creation of a full-stack architecture for both the back-end and the front-end, with MongoDB as the database. It was developed for a football association with the aim of facilitating the management of beverage sales during training sessions. The main features of the application include sales management and order tracking. To ensure data security, the application implements a JSON Web Token (JWT)-based authentication system, guaranteeing secure login for users. The user interface has been designed to be simple, intuitive, and ergonomic, providing a smooth and fast experience for users, even for those with little technological experience. To ensure optimal accessibility, the application was developed as a Progressive Web App (PWA), offering an experience similar to that of a native app while being accessible via a browser. It is also fully responsive, ensuring optimal use on various devices, including smartphones and tablets, thus offering great access flexibility, regardless of the device used.",
     technologyUsed: "Technologies used",
   },
+  webservices: {
+    march: "March",
+    context: "Context",
+    contextWebServices:
+      "An API developed with Express.js, created as part of a web services course. This project was completed at Ynov School with the aim of deepening my skills in back-end development and designing RESTful API services.",
+    description: "Description",
+    descriptionWebServices:
+      "This API includes an authentication system using JWT and various CRUD functionalities for users, projects, roles, and skills. The API was designed to be secure, efficient, and scalable, following best practices in back-end development. It has been tested and validated to ensure its proper functioning and reliability. The API was built using Express.js, a popular Node.js framework for creating web applications and RESTful APIs.",
+    technologyUsed: "Technologies used",
+  },
 } as const;
