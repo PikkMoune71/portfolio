@@ -168,4 +168,15 @@ export default {
       "Dans cette API se trouve un système d'authentifaciton avec JWT et différents CRUD pour les utilisateurs, les projets, roles et compétences. L'API a été conçue pour être sécurisée, performante et évolutive, en utilisant les meilleures pratiques de développement back-end. Elle a été testée et validée pour garantir son bon fonctionnement et sa fiabilité. L'API a été développée en utilisant Express.js, un framework Node.js populaire pour la création d'applications web et d'API RESTful.",
     technologyUsed: "Technologies utilisées",
   },
+  taskk: {
+    february: "Février",
+    context: "Contexte",
+    contextTaskk:
+      "Taskk est une application de gestion de tâches développée avec Next.js, l'idée était de créer une application simple et intuitive pour gérer les tâches quotidiennes. En plus de ça, j'ai voulu explorer les fonctionnalités de Next.js, Tailwind CSS et Firebase pour créer une application moderne et performante.",
+    description: "Description",
+    descriptionTaskk:
+      "Taskk est une application de gestion de tâches conçue pour optimiser l'organisation quotidienne. Elle permet aux utilisateurs de créer, modifier et supprimer des tâches, ainsi que de les marquer comme terminées. Grâce à son interface intuitive et ergonomique, elle facilite la gestion des priorités et le suivi des progrès. L'application intègre également un calendrier pour planifier les tâches et un chronomètre afin de mesurer précisément le temps consacré à chaque activité. Le projet est en constante évolution avec des features à venir comme la synchronisation avec un compte utilisateur, la possibilité de partager des tâches avec d'autres utilisateurs et des statistiques sur la productivité. Taskk est une application moderne, performante et évolutive, conçue pour répondre aux besoins des utilisateurs les plus exigeants.",
+    technologyUsed: "Technologies utilisées",
+    visitWebsite: "Visiter le site",
+  },
 } as const;
