@@ -1,5 +1,13 @@
 [
   {
+    "title": "Taskk",
+    "descriptionFr": "Gestionnaire de tâches pour gérer l'avancement des projets",
+    "descriptionEn": "Task manager to manage project progress",
+    "image": "/taskk/taskk-project.png",
+    "link": "/taskk",
+    "rotate": "rotate-3"
+  },
+  {
     "title": "Scrolly",
     "descriptionFr": "Plateforme simplifiant la recherche et la candidature à des alternances et stages.",
     "descriptionEn": "Platform simplifying the search and application for apprenticeships and internships.",
@@ -38,13 +46,5 @@
     "image": "/buvette.png",
     "link": "/buvette",
     "rotate": "rotate-3"
-  },
-  {
-    "title": "Web Services",
-    "descriptionFr": "Authentification, CRUD en Express.js",
-    "descriptionEn": "Authentication, CRUD in Express.js",
-    "image": "/webservices.png",
-    "link": "/web-services",
-    "rotate": "-rotate-3"
   }
 ]

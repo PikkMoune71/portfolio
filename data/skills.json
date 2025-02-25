@@ -28,6 +28,13 @@
     "category": "Front-End"
   },
   {
+    "name": "Redux",
+    "levelFr": "Niveau Intermédiaire",
+    "levelEn": "Intermediate Level",
+    "icon": "ReduxIcon",
+    "category": "Front-End"
+  },
+  {
     "name": "Tailwind CSS",
     "levelFr": "Niveau Avancé",
     "levelEn": "Advanced Level",

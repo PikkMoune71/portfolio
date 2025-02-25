@@ -30,6 +30,7 @@ import {
   NodeIcon,
   VuetifyIcon,
   ShadcnIcon,
+  ReduxIcon,
 } from "@/components/icons";
 
 export type Skill = {
@@ -72,4 +73,5 @@ export const iconComponents: Record<string, JSX.Element> = {
   NodeIcon: <NodeIcon />,
   VuetifyIcon: <VuetifyIcon />,
   ShadcnIcon: <ShadcnIcon />,
+  ReduxIcon: <ReduxIcon />,
 };

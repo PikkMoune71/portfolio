@@ -29,3 +29,4 @@ export { SuiteAdobeIcon } from "./SuiteAdobeIcon";
 export { NodeIcon } from "./NodeIcon";
 export { VuetifyIcon } from "./VuetifyIcon";
 export { ShadcnIcon } from "./ShadcnIcon";
+export { ReduxIcon } from "./ReduxIcon";
