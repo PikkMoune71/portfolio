@@ -100,7 +100,7 @@ export default function Taskk() {
       </div>
       <Button className="text-xl flex items-center gap-2">
         <Link
-          href="https://dashboard-delta-blue.vercel.app/dashboard"
+          href="https://dashboard-delta-blue.vercel.app"
           target="_blank"
           className="flex items-center gap-2"
         >
