@@ -7,6 +7,8 @@ import { Providers } from "./providers";
 import { Header } from "@/components/Header";
 import ModeToggle from "@/components/ModeToggle";
 import { Footer } from "@/components/Footer";
+import Script from "next/script";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -35,10 +37,33 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GTM-WJD5K9SC"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-WJD5K9SC');
+          `}
+        </Script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Head>
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-WJD5K9SC"
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            />
+          </noscript>
+        </Head>
+
         <Providers locale={params.locale}>
           <ThemeProvider
             attribute="class"
