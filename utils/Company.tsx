@@ -5,4 +5,5 @@ export interface Company {
   location: string;
   date: string;
   status?: string;
+  logo?: string;
 }

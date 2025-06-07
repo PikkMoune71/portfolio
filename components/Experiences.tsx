@@ -60,7 +60,7 @@ export const Experiences = () => {
                 <div className="flex items-center gap-4 mt-2">
                   <div>
                     <Image
-                      src="/company.jpg"
+                      src={company.logo || "/company.jpg"}
                       width={70}
                       height={70}
                       alt="Company Icon"
