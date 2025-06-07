@@ -57,7 +57,7 @@ export const About = () => {
         >
           <Avatar>
             <AvatarImage
-              src="https://media.licdn.com/dms/image/v2/C4D03AQHy5iE3VO-6ig/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605118432887?e=1741824000&v=beta&t=cN6eGFJqkjeA4e6Yuq9NIfYhMLH1l0IKsAxvbHoGpnk"
+              src="/logo/profile-linkedin.jpeg"
               alt="@shadcn"
               className="h-20 w-20"
             />
